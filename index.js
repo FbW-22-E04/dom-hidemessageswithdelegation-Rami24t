@@ -1,0 +1,1 @@
+document.body.addEventListener('click', e => e.target.classList.contains('remove-button') ? e.target.parentElement.remove() : 0);
